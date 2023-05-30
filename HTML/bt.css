@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all .2s cubic-bezier(.37,1.14.26.1.24);
+}
+*::selection{
+    background: #ff3300;
+    color: #fff;
+}
+html{
+    font-size: 63%;
+    overflow-x: hidden;
+}
+header .header-1,header .header-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    width: 100%;
+    z-index: 1000;
+}
+header .header-1 .logo{
+    font-size: 2rem;
+    color: #666;
+}
+header .header-1 .logo i{
+    color: #20B2AA;
+}
+header .header-1 .form-container form{
+    display:flex;
+}
+header .header-1 .form-container form #search{
+    height: 4rem;
+    width: 50rem;
+    outline: none;
+    border: 1px solid #666;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+header .header-1 .form-container form label{
+    width: 5rem;
+    height: 4rem;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 2rem;
+    cursor: pointer;
+    background: #20B2AA;
+    color: #fff;
+}
+header .header-1 .form-container form label:hover{
+    color: yellow;
+}
+header .header-1 .form-container form #search label:focus{
+    border-color: #20B2AA;
+}
+
+
+header .header-2{
+    background: #20B2AA;
+}
+header .header-2 .navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .header-2 .navbar ul li{
+    margin: 0 1rem;
+}
+header .header-2 .navbar ul li a{
+    font-size: 18px;
+    color: #fff;
+}
+header .header-2 .navbar ul li a:hover{
+    color: yellowgreen;
+}
+header .header-2 .icons a{
+    color: #fff;
+    font-size: 2rem;
+    padding: 0 1rem;
+}
+header .header-2 .icons a:hover{
+    color: yellowgreen;
+}
+header .header-2 #menu{
+    font-size: 3rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+header .header-2.header-active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
+}
+
+
+
+header .header-2{
+    background: #20B2AA;
+}
+header .header-2 .navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .header-2 .navbar ul li{
+    margin: 0 1rem;
+}
+header .header-2 .navbar ul li a{
+    font-size: 18px;
+    color: #fff;
+}
+header .header-2 .navbar ul li a:hover{
+    color: yellowgreen;
+}
